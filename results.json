@@ -1208,9 +1208,10 @@
         "force": "73",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "0",
@@ -6417,10 +6418,11 @@
         "name": "Zebec",
         "force": "85",
         "pos": [
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "8",
@@ -14450,9 +14452,10 @@
         "force": "86",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 2
+        "missingPos": 1
       },
       {
         "num": "18",
@@ -25978,11 +25981,12 @@
         "name": "Pflügler",
         "force": "74",
         "pos": [
+          "LD",
           "LE",
           "ME",
           "ZAG"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "4",
@@ -28020,9 +28024,10 @@
         "force": "80",
         "pos": [
           "MC",
-          "VOL"
+          "VOL",
+          "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "15",
@@ -43404,9 +43409,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "10",
@@ -49497,10 +49503,11 @@
         "force": "94",
         "pos": [
           "CA",
+          "MC",
           "MEI",
           "PD"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "13",
@@ -52344,10 +52351,12 @@
         "force": "77",
         "pos": [
           "CA",
+          "MC",
           "MEI",
-          "PE"
+          "PE",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "15",
@@ -53108,9 +53117,10 @@
         "pos": [
           "ME",
           "MEI",
-          "PE"
+          "PE",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "5",
@@ -53127,9 +53137,11 @@
         "force": "83",
         "pos": [
           "MC",
+          "MEI",
+          "PE",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "14",
@@ -54318,10 +54330,11 @@
           "LD",
           "MC",
           "MEI",
+          "PE",
           "VOL",
           "ZAG"
         ],
-        "missingPos": -1
+        "missingPos": -2
       },
       {
         "num": "6",
