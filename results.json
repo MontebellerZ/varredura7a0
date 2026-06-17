@@ -1369,8 +1369,8 @@
         "name": "Bahr",
         "force": "80",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -1379,8 +1379,8 @@
         "name": "McIlvenny",
         "force": "75",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -1389,8 +1389,8 @@
         "name": "Coombes",
         "force": "70",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -1428,8 +1428,8 @@
         "name": "E. Souza",
         "force": "74",
         "pos": [
-          "PE",
-          "MEI"
+          "MEI",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -5249,6 +5249,225 @@
     ]
   },
   {
+    "team": "Turquia",
+    "year": "1954",
+    "players": [
+      {
+        "num": "1",
+        "name": "Turgay",
+        "force": "80",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "12",
+        "name": "Şükrü",
+        "force": "72",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "9",
+        "name": "Suat",
+        "force": "68",
+        "pos": [
+          "LD",
+          "MD"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "3",
+        "name": "Basri",
+        "force": "80",
+        "pos": [
+          "LE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "7",
+        "name": "Rober",
+        "force": "73",
+        "pos": [
+          "LE",
+          "ME"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "18",
+        "name": "Ahmet",
+        "force": "68",
+        "pos": [
+          "LE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "2",
+        "name": "Rıdvan",
+        "force": "70",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "4",
+        "name": "Ertan",
+        "force": "74",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "5",
+        "name": "Bülent",
+        "force": "82",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "15",
+        "name": "Nedim",
+        "force": "69",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "16",
+        "name": "Naci",
+        "force": "71",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 2
+      },
+      {
+        "num": "20",
+        "name": "Kadri",
+        "force": "74",
+        "pos": [
+          "MC",
+          "ZAG"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "6",
+        "name": "Çetin",
+        "force": "72",
+        "pos": [
+          "MC",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "14",
+        "name": "Ali",
+        "force": "69",
+        "pos": [
+          "CA",
+          "MC"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "17",
+        "name": "Akgün",
+        "force": "70",
+        "pos": [
+          "MC",
+          "ME"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "21",
+        "name": "Coşkun",
+        "force": "77",
+        "pos": [
+          "PD",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "8",
+        "name": "Erol",
+        "force": "70",
+        "pos": [
+          "MEI",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "13",
+        "name": "Lefter",
+        "force": "88",
+        "pos": [
+          "MEI",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "10",
+        "name": "Feridun",
+        "force": "65",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "11",
+        "name": "Burhan",
+        "force": "78",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "19",
+        "name": "Necmi",
+        "force": "68",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "22",
+        "name": "Metin Oktay",
+        "force": "88",
+        "pos": [
+          "CA",
+          "PD"
+        ],
+        "missingPos": 0
+      }
+    ]
+  },
+  {
     "team": "Argentina",
     "year": "1958",
     "players": [
@@ -6317,8 +6536,8 @@
         "name": "Mátrai",
         "force": "79",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -6327,8 +6546,8 @@
         "name": "L. Sárosi",
         "force": "74",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -6337,8 +6556,8 @@
         "name": "Kárpáti",
         "force": "73",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -6347,8 +6566,8 @@
         "name": "Szigeti",
         "force": "70",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -6387,9 +6606,9 @@
         "name": "Bozsik",
         "force": "87",
         "pos": [
-          "VOL",
           "MC",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -6398,8 +6617,8 @@
         "name": "Hidegkuti",
         "force": "85",
         "pos": [
-          "MEI",
-          "CA"
+          "CA",
+          "MEI"
         ],
         "missingPos": 0
       },
@@ -6408,8 +6627,8 @@
         "name": "Szojka",
         "force": "73",
         "pos": [
-          "MEI",
-          "CA"
+          "CA",
+          "MEI"
         ],
         "missingPos": 0
       },
@@ -14756,6 +14975,229 @@
     ]
   },
   {
+    "team": "Alemanha",
+    "year": "1970",
+    "players": [
+      {
+        "num": "1",
+        "name": "Maier",
+        "force": "89",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "21",
+        "name": "Manglitz",
+        "force": "71",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "22",
+        "name": "Wolter",
+        "force": "70",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "2",
+        "name": "Höttges",
+        "force": "78",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "7",
+        "name": "Vogts",
+        "force": "84",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "15",
+        "name": "Patzke",
+        "force": "72",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "3",
+        "name": "Schnellinger",
+        "force": "83",
+        "pos": [
+          "LE",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "4",
+        "name": "Beckenbauer",
+        "force": "96",
+        "pos": [
+          "VOL",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "5",
+        "name": "Schulz",
+        "force": "80",
+        "pos": [
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "11",
+        "name": "Fichtel",
+        "force": "76",
+        "pos": [
+          "VOL",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "18",
+        "name": "Sieloff",
+        "force": "73",
+        "pos": [
+          "LE",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "6",
+        "name": "Weber",
+        "force": "78",
+        "pos": [
+          "VOL",
+          "ZAG"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "16",
+        "name": "Lorenz",
+        "force": "74",
+        "pos": [
+          "VOL",
+          "ZAG"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "19",
+        "name": "Dietrich",
+        "force": "72",
+        "pos": [
+          "MC",
+          "VOL"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "8",
+        "name": "Haller",
+        "force": "83",
+        "pos": [
+          "MD",
+          "MEI",
+          "PD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "12",
+        "name": "Overath",
+        "force": "85",
+        "pos": [
+          "ME",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "14",
+        "name": "Libuda",
+        "force": "81",
+        "pos": [
+          "ME",
+          "PD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "20",
+        "name": "Grabowski",
+        "force": "82",
+        "pos": [
+          "ME",
+          "MEI",
+          "PD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "17",
+        "name": "Löhr",
+        "force": "78",
+        "pos": [
+          "CA",
+          "PE"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "9",
+        "name": "Seeler",
+        "force": "90",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "10",
+        "name": "Held",
+        "force": "80",
+        "pos": [
+          "CA",
+          "PD",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "13",
+        "name": "Müller",
+        "force": "94",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      }
+    ]
+  },
+  {
     "team": "Brasil",
     "year": "1974",
     "players": [
@@ -16811,8 +17253,8 @@
         "name": "Burgnich",
         "force": "82",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -16848,8 +17290,8 @@
         "name": "Benetti",
         "force": "80",
         "pos": [
-          "VOL",
-          "MD"
+          "MD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -16858,8 +17300,8 @@
         "name": "Capello",
         "force": "82",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -16868,8 +17310,8 @@
         "name": "Juliano",
         "force": "76",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -16907,8 +17349,8 @@
         "name": "Causio",
         "force": "83",
         "pos": [
-          "PD",
-          "ME"
+          "ME",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -18802,8 +19244,8 @@
         "name": "Breitenberger",
         "force": "74",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -18812,8 +19254,8 @@
         "name": "Pezzey",
         "force": "81",
         "pos": [
-          "ZAG",
-          "VOL"
+          "VOL",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -18822,8 +19264,8 @@
         "name": "Weber",
         "force": "74",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -18832,8 +19274,8 @@
         "name": "Kreuz",
         "force": "76",
         "pos": [
-          "ME",
           "MC",
+          "ME",
           "MEI"
         ],
         "missingPos": 0
@@ -18843,9 +19285,9 @@
         "name": "Hattenberger",
         "force": "76",
         "pos": [
-          "VOL",
+          "MC",
           "MD",
-          "MC"
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -18854,8 +19296,8 @@
         "name": "Hickersberger",
         "force": "77",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -18864,8 +19306,8 @@
         "name": "Happich",
         "force": "72",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -18874,8 +19316,8 @@
         "name": "Baumeister",
         "force": "72",
         "pos": [
-          "VOL",
-          "ME"
+          "ME",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -18902,8 +19344,8 @@
         "name": "Jara",
         "force": "78",
         "pos": [
-          "MEI",
           "ME",
+          "MEI",
           "PD"
         ],
         "missingPos": 0
@@ -18913,8 +19355,8 @@
         "name": "Oberacher",
         "force": "73",
         "pos": [
-          "PD",
-          "CA"
+          "CA",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -19500,10 +19942,11 @@
         "name": "Hattenberger",
         "force": "75",
         "pos": [
+          "MC",
           "MD",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "10",
@@ -21657,8 +22100,8 @@
         "name": "Djamel Zidane",
         "force": "75",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -21676,8 +22119,8 @@
         "name": "Faouzi Mansouri",
         "force": "71",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -24638,8 +25081,8 @@
         "name": "Battiston",
         "force": "81",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24648,8 +25091,8 @@
         "name": "Bibard",
         "force": "72",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24658,8 +25101,8 @@
         "name": "Bossis",
         "force": "82",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24677,8 +25120,8 @@
         "name": "Genghini",
         "force": "75",
         "pos": [
-          "ME",
           "MC",
+          "ME",
           "MEI"
         ],
         "missingPos": 0
@@ -24688,8 +25131,8 @@
         "name": "Luis Fernandez",
         "force": "83",
         "pos": [
-          "VOL",
-          "MD"
+          "MD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -24698,9 +25141,9 @@
         "name": "Platini",
         "force": "94",
         "pos": [
-          "VOL",
           "MC",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -24709,9 +25152,9 @@
         "name": "Ferreri",
         "force": "74",
         "pos": [
-          "VOL",
+          "MC",
           "MD",
-          "MC"
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -24720,8 +25163,8 @@
         "name": "Tigana",
         "force": "89",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -24741,8 +25184,8 @@
         "name": "Vercruysse",
         "force": "72",
         "pos": [
-          "MEI",
-          "ME"
+          "ME",
+          "MEI"
         ],
         "missingPos": 0
       },
@@ -24751,9 +25194,9 @@
         "name": "Rocheteau",
         "force": "80",
         "pos": [
+          "CA",
           "PD",
-          "PE",
-          "CA"
+          "PE"
         ],
         "missingPos": 0
       },
@@ -24762,8 +25205,8 @@
         "name": "Bellone",
         "force": "76",
         "pos": [
-          "PE",
-          "CA"
+          "CA",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -24845,8 +25288,8 @@
         "name": "De Wolf",
         "force": "72",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24855,8 +25298,8 @@
         "name": "Renquin",
         "force": "73",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24865,8 +25308,8 @@
         "name": "Grün",
         "force": "75",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24884,8 +25327,8 @@
         "name": "Broos",
         "force": "72",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -24904,37 +25347,40 @@
         "force": "80",
         "pos": [
           "ME",
-          "MEI"
+          "MEI",
+          "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "17",
         "name": "Mommens",
         "force": "71",
         "pos": [
+          "MC",
           "ME",
-          "MC"
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "22",
         "name": "Vervoort",
         "force": "70",
         "pos": [
+          "MC",
           "ME",
-          "MC"
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "3",
         "name": "Van Der Elst",
         "force": "76",
         "pos": [
-          "VOL",
-          "MD"
+          "MD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -24943,8 +25389,8 @@
         "name": "Vandereycken",
         "force": "77",
         "pos": [
-          "VOL",
-          "MD"
+          "MD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -24953,18 +25399,19 @@
         "name": "Scifo",
         "force": "88",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 2
+        "missingPos": 1
       },
       {
         "num": "15",
         "name": "L. Van Der Elst",
         "force": "70",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -24983,8 +25430,8 @@
         "name": "Veyt",
         "force": "69",
         "pos": [
-          "PD",
-          "CA"
+          "CA",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -25004,9 +25451,10 @@
         "force": "84",
         "pos": [
           "CA",
-          "MEI"
+          "MEI",
+          "PD"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "16",
@@ -29774,9 +30222,10 @@
         "force": "81",
         "pos": [
           "MC",
-          "ME"
+          "ME",
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "17",
@@ -30283,6 +30732,223 @@
         "force": "72",
         "pos": [
           "PE"
+        ],
+        "missingPos": 0
+      }
+    ]
+  },
+  {
+    "team": "México",
+    "year": "1994",
+    "players": [
+      {
+        "num": "1",
+        "name": "Campos",
+        "force": "87",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "12",
+        "name": "F. Fernández",
+        "force": "72",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "22",
+        "name": "A. Chávez",
+        "force": "71",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "18",
+        "name": "Salgado",
+        "force": "71",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "21",
+        "name": "R. Gutiérrez",
+        "force": "74",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "2",
+        "name": "C. Suárez",
+        "force": "82",
+        "pos": [
+          "LD",
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "3",
+        "name": "J.D. Ramírez",
+        "force": "76",
+        "pos": [
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "4",
+        "name": "Ambríz",
+        "force": "78",
+        "pos": [
+          "VOL",
+          "ZAG"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "5",
+        "name": "R. Ramírez",
+        "force": "82",
+        "pos": [
+          "MC",
+          "VOL"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "6",
+        "name": "Bernal",
+        "force": "76",
+        "pos": [
+          "MD",
+          "VOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "20",
+        "name": "J. Rodríguez",
+        "force": "75",
+        "pos": [
+          "MC",
+          "VOL"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "8",
+        "name": "García Aspe",
+        "force": "83",
+        "pos": [
+          "MC"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "13",
+        "name": "J.C. Chávez",
+        "force": "72",
+        "pos": [
+          "MC"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "14",
+        "name": "Del Olmo",
+        "force": "74",
+        "pos": [
+          "MC",
+          "ME",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "15",
+        "name": "Espinoza",
+        "force": "75",
+        "pos": [
+          "MC"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "17",
+        "name": "Galindo",
+        "force": "77",
+        "pos": [
+          "ME",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "7",
+        "name": "Hermosillo",
+        "force": "79",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "9",
+        "name": "H. Sánchez",
+        "force": "91",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "10",
+        "name": "L. García",
+        "force": "84",
+        "pos": [
+          "CA",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "11",
+        "name": "Zague",
+        "force": "79",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "16",
+        "name": "Valdéz",
+        "force": "73",
+        "pos": [
+          "CA",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "19",
+        "name": "Salvador",
+        "force": "73",
+        "pos": [
+          "CA",
+          "PD"
         ],
         "missingPos": 0
       }
@@ -40944,9 +41610,10 @@
         "force": "76",
         "pos": [
           "MC",
-          "ME"
+          "ME",
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "19",
@@ -41759,8 +42426,8 @@
         "name": "Jo. Mensah",
         "force": "71",
         "pos": [
-          "ZAG",
-          "LD"
+          "LD",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -41778,8 +42445,8 @@
         "name": "Addy",
         "force": "66",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -41788,8 +42455,8 @@
         "name": "Annan",
         "force": "76",
         "pos": [
-          "VOL",
-          "MD"
+          "MD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -41798,8 +42465,8 @@
         "name": "D. Boateng",
         "force": "72",
         "pos": [
-          "VOL",
-          "MD"
+          "MD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -41808,8 +42475,8 @@
         "name": "K-P. Boateng",
         "force": "78",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -41819,9 +42486,10 @@
         "force": "79",
         "pos": [
           "MC",
-          "ME"
+          "ME",
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "21",
@@ -41829,17 +42497,18 @@
         "force": "77",
         "pos": [
           "MC",
-          "ME"
+          "ME",
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "10",
         "name": "Appiah",
         "force": "76",
         "pos": [
-          "MEI",
-          "ME"
+          "ME",
+          "MEI"
         ],
         "missingPos": 0
       },
@@ -41848,8 +42517,8 @@
         "name": "Owusu-Abeyie",
         "force": "71",
         "pos": [
-          "PD",
-          "ME"
+          "ME",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -41858,10 +42527,11 @@
         "name": "A. Ayew",
         "force": "76",
         "pos": [
-          "PE",
-          "ME"
+          "CA",
+          "ME",
+          "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "3",
@@ -45002,9 +45672,10 @@
         "force": "70",
         "pos": [
           "MD",
-          "VOL"
+          "VOL",
+          "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "10",
@@ -48970,8 +49641,8 @@
         "name": "Saïss",
         "force": "78",
         "pos": [
-          "ZAG",
-          "VOL"
+          "VOL",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -49047,8 +49718,8 @@
         "name": "Ziyech",
         "force": "86",
         "pos": [
-          "PD",
-          "MEI"
+          "MEI",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -49057,8 +49728,8 @@
         "name": "Dirar",
         "force": "77",
         "pos": [
-          "PD",
-          "MD"
+          "MD",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -49067,8 +49738,8 @@
         "name": "Carcela",
         "force": "75",
         "pos": [
-          "PE",
-          "PD"
+          "PD",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -49077,8 +49748,8 @@
         "name": "N. Amrabat",
         "force": "76",
         "pos": [
-          "PE",
-          "MD"
+          "MD",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -50633,9 +51304,9 @@
         "name": "Bruno Fernandes",
         "force": "85",
         "pos": [
-          "VOL",
           "MC",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -50663,8 +51334,8 @@
         "name": "João Mário",
         "force": "75",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -50673,10 +51344,10 @@
         "name": "Otávio",
         "force": "75",
         "pos": [
-          "VOL",
-          "MD",
           "MC",
-          "PD"
+          "MD",
+          "PD",
+          "VOL"
         ],
         "missingPos": 0
       },
@@ -50712,8 +51383,8 @@
         "name": "Bernardo Silva",
         "force": "86",
         "pos": [
-          "MEI",
           "MD",
+          "MEI",
           "PD"
         ],
         "missingPos": 0
@@ -50723,8 +51394,8 @@
         "name": "Rafael Leão",
         "force": "82",
         "pos": [
-          "PE",
-          "CA"
+          "CA",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -50733,9 +51404,9 @@
         "name": "Ricardo Horta",
         "force": "73",
         "pos": [
-          "PE",
           "CA",
-          "PD"
+          "PD",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -50764,8 +51435,8 @@
         "force": "80",
         "pos": [
           "CA",
-          "PE",
-          "MEI"
+          "MEI",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -51155,9 +51826,10 @@
         "force": "82",
         "pos": [
           "MC",
-          "ME"
+          "ME",
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "6",
@@ -51206,9 +51878,10 @@
         "force": "81",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 3
+        "missingPos": 2
       },
       {
         "num": "7",

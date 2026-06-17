@@ -17,26 +17,25 @@ async function main() {
 
   console.info(`🔵 Workers (${workers.length}) ready`);
 
-  const totalRuns = Constants.maxWorkers * Constants.maxLoops;
   const workersResult = await workerManager.ExecuteWorkers(
     workers,
-    totalRuns,
+    Constants.maxRuns,
     GameScraper.RunGameScraper,
   );
 
   console.info("🔵 Runs ended");
 
-  await browserManager.FinalizeBrowser();
-
-  console.info("🔵 Browser ended");
-
   const newTeams = workersResult.flatMap((r) => r.teams);
 
-  console.info("⚪ Saving results");
+  console.info("🟣 Saving results");
 
   TeamDataManager.registerNewTeams(newTeams);
 
   console.info("🟢 Results saved");
+
+  await browserManager.FinalizeBrowser();
+
+  console.info("🔵 Browser ended");
 
   console.info("🟢 Ended");
 }

@@ -5,6 +5,8 @@ import Constants from "./config/constants";
 class WorkerManager {
   constructor(private readonly browser: Browser) {}
 
+  private StopSign = false;
+
   async CreateWorker() {
     const context = await this.browser.createBrowserContext();
     if (!context) throw new Error("Contexto não inicializado corretamente");
@@ -39,8 +41,11 @@ class WorkerManager {
     pendingRuns: number[],
     results: T[],
   ) {
-    while (pendingRuns.length) {
+    let executedRuns = 0;
+
+    while (pendingRuns.length && !this.StopSign) {
       const run = pendingRuns.shift();
+      executedRuns++;
 
       console.info(`🟣 #${workerId}: Run ${run}`);
 
@@ -58,13 +63,38 @@ class WorkerManager {
       try {
         await this.ResetWorker(worker);
       } catch (err) {
-        console.info(`🟡 #${workerId}: Encerrado`);
+        console.info(`🟡 #${workerId}: Ended with error (runs: ${executedRuns})`);
 
         fs.appendFileSync(Constants.errorFile, `${new Date().toLocaleString()}:\n${err}\n\n\n`);
 
         return;
       }
     }
+
+    if (this.StopSign) {
+      console.info(`🟠 #${workerId}: Stopped (runs: ${executedRuns})`);
+      return;
+    }
+
+    console.info(`🔵 #${workerId}: Ended (runs: ${executedRuns})`);
+  }
+
+  private SetupWorkerStopper() {
+    const onEnter = () => {
+      console.info(`🟠 Stopping workers`);
+      this.StopSign = true;
+    };
+
+    const clearStopper = () => {
+      process.stdin.off("data", onEnter);
+      process.stdin.pause();
+      this.StopSign = false;
+    };
+
+    process.stdin.once("data", onEnter);
+    console.info("⚪ Press [ENTER] to stop workers");
+
+    return clearStopper;
   }
 
   async ExecuteWorkers<T>(
@@ -76,9 +106,13 @@ class WorkerManager {
 
     const workersResult: T[] = [];
 
+    const clearStopper = this.SetupWorkerStopper();
+
     await Promise.all(
       workers.map((w, id) => this.RunWorker(w, id + 1, executor, pendingRuns, workersResult)),
     );
+
+    clearStopper();
 
     return workersResult;
   }
