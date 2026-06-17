@@ -1,13 +1,17 @@
 import fs from "fs";
 import { Browser, Page } from "puppeteer";
 import Constants from "./config/constants";
+import Logger from "./logger/logger";
 
 class WorkerManager {
-  constructor(private readonly browser: Browser) {}
+  constructor(
+    private readonly browser: Browser,
+    private readonly logger: Logger,
+  ) {}
 
   private StopSign = false;
 
-  async CreateWorker() {
+  async CreateWorker(workerId?: number) {
     const context = await this.browser.createBrowserContext();
     if (!context) throw new Error("Contexto não inicializado corretamente");
 
@@ -16,6 +20,8 @@ class WorkerManager {
 
     await page.goto(Constants.siteUrl);
 
+    await this.logger.Info(workerId ? `🔵 #${workerId}: Worker ready` : `🔵 Worker ready`);
+
     return page;
   }
 
@@ -23,7 +29,7 @@ class WorkerManager {
     const workers: Page[] = [];
 
     for (let i = 0; i < maxWorkers; i++) {
-      const worker = await this.CreateWorker();
+      const worker = await this.CreateWorker(i + 1);
       workers.push(worker);
     }
 
@@ -47,15 +53,15 @@ class WorkerManager {
       const run = pendingRuns.shift();
       executedRuns++;
 
-      console.info(`🟣 #${workerId}: Run ${run}`);
+      const logId = await this.logger.Info(`🟣 #${workerId}: Run ${run}`);
 
       try {
         const result = await executor(worker);
         results.push(result);
 
-        console.info(`🟢 #${workerId}: Run ${run}`);
+        await this.logger.UpdateInfo(logId, `🟢 #${workerId}: Run ${run}`);
       } catch (err) {
-        console.info(`🔴 #${workerId}: Run ${run}`);
+        await this.logger.UpdateError(logId, `🔴 #${workerId}: Run ${run}`);
 
         fs.appendFileSync(Constants.errorFile, `${new Date().toLocaleString()}:\n${err}\n\n\n`);
       }
@@ -63,7 +69,7 @@ class WorkerManager {
       try {
         await this.ResetWorker(worker);
       } catch (err) {
-        console.info(`🟡 #${workerId}: Ended with error (runs: ${executedRuns})`);
+        await this.logger.Warn(`🟡 #${workerId}: Ended with error (runs: ${executedRuns})`);
 
         fs.appendFileSync(Constants.errorFile, `${new Date().toLocaleString()}:\n${err}\n\n\n`);
 
@@ -72,16 +78,16 @@ class WorkerManager {
     }
 
     if (this.StopSign) {
-      console.info(`🟠 #${workerId}: Stopped (runs: ${executedRuns})`);
+      await this.logger.Warn(`🟠 #${workerId}: Stopped (runs: ${executedRuns})`);
       return;
     }
 
-    console.info(`🔵 #${workerId}: Ended (runs: ${executedRuns})`);
+    await this.logger.Info(`🔵 #${workerId}: Ended (runs: ${executedRuns})`);
   }
 
-  private SetupWorkerStopper() {
-    const onEnter = () => {
-      console.info(`🟠 Stopping workers`);
+  private async SetupWorkerStopper() {
+    const onEnter = async () => {
+      await this.logger.Warn("🟠 Stopping workers");
       this.StopSign = true;
     };
 
@@ -92,7 +98,7 @@ class WorkerManager {
     };
 
     process.stdin.once("data", onEnter);
-    console.info("⚪ Press [ENTER] to stop workers");
+    await this.logger.Info("⚪ Press [ENTER] in the terminal to stop workers");
 
     return clearStopper;
   }
@@ -106,7 +112,7 @@ class WorkerManager {
 
     const workersResult: T[] = [];
 
-    const clearStopper = this.SetupWorkerStopper();
+    const clearStopper = await this.SetupWorkerStopper();
 
     await Promise.all(
       workers.map((w, id) => this.RunWorker(w, id + 1, executor, pendingRuns, workersResult)),

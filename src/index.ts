@@ -3,19 +3,23 @@ import Constants from "./config/constants";
 import WorkerManager from "./workerManager";
 import GameScraper from "./gameScraper";
 import TeamDataManager from "./teamDataManager";
+import Logger from "./logger/logger";
 
 async function main() {
-  console.info("⚪ Started");
+  const logger = new Logger();
+  await logger.awaitReady;
+
+  await logger.Info("⚪ Started");
 
   const browserManager = new BrowserManager();
   await browserManager.awaitReady;
 
-  console.info("🔵 Browser ready");
+  await logger.Info("🔵 Browser ready");
 
-  const workerManager = new WorkerManager(browserManager.browser);
+  const workerManager = new WorkerManager(browserManager.browser, logger);
   const workers = await workerManager.CreateMultipleWorkers(Constants.maxWorkers);
 
-  console.info(`🔵 Workers (${workers.length}) ready`);
+  await logger.Info(`🔵 All ${workers.length} workers ready`);
 
   const workersResult = await workerManager.ExecuteWorkers(
     workers,
@@ -23,21 +27,23 @@ async function main() {
     GameScraper.RunGameScraper,
   );
 
-  console.info("🔵 Runs ended");
+  await logger.Info("🔵 Runs ended");
 
   const newTeams = workersResult.flatMap((r) => r.teams);
 
-  console.info("🟣 Saving results");
+  await logger.Info("🟣 Saving results");
 
   TeamDataManager.registerNewTeams(newTeams);
 
-  console.info("🟢 Results saved");
+  await logger.Info("🟢 Results saved");
 
   await browserManager.FinalizeBrowser();
 
-  console.info("🔵 Browser ended");
+  await logger.Info("🔵 Browser ended");
 
-  console.info("🟢 Ended");
+  await logger.Info("🟢 Ended");
+
+  await logger.Close();
 }
 
 main()

@@ -5,8 +5,8 @@ class BrowserManager {
   private _awaitReady: Promise<void>;
   private _browser?: Browser;
 
-  constructor() {
-    this._awaitReady = this.InitializeBrowser();
+  constructor(headless = Constants.browserHeadless) {
+    this._awaitReady = this.InitializeBrowser(headless);
   }
 
   get awaitReady(): Promise<void> {
@@ -21,10 +21,11 @@ class BrowserManager {
     return this._browser;
   }
 
-  private async InitializeBrowser() {
+  private async InitializeBrowser(headless: boolean) {
     this._browser = await puppeteer.launch({
-      headless: Constants.browserHeadless,
-      defaultViewport: { width: 1280, height: 720 },
+      headless: headless,
+      defaultViewport: null,
+      args: ["--window-size=900,900"],
     });
     if (!this._browser) throw new Error("Navegador não inicializado corretamente");
   }

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Logger Automação 7a0</title>
+    <style>
+      :root {
+        font-family: "Segoe UI", Tahoma, sans-serif;
+      }
+
+      html,
+      body {
+        margin: 0;
+        height: 100vh;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7f5ff;
+        color: #0f172a;
+      }
+
+      .card {
+        padding: 28px;
+        border-radius: 14px;
+        background: #ffffff;
+        border: 1px solid #cbd5e1;
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        height: 80%;
+        width: min(400px, 90%);
+        overflow: auto;
+      }
+
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="logsCard" class="card"></main>
+
+    <script>
+      const logs = new Map();
+
+      const logIdGenerator = (id) => `logItem_${id}`;
+
+      const getLogs = (eventData) => {
+        const { id, text } = eventData;
+
+        const isUpdate = logs.has(id);
+
+        if (!isUpdate) addLog(id, text);
+        else updateLog(id, text);
+
+        logs.set(id, text);
+      };
+
+      const addLog = (id, text) => {
+        const logId = logIdGenerator(id);
+
+        const newLog = document.createElement("p");
+        newLog.id = logId;
+        newLog.innerText = text;
+
+        const logsCard = document.getElementById("logsCard");
+        logsCard.appendChild(newLog);
+        logsCard.scrollTop = logsCard.scrollHeight;
+      };
+
+      const updateLog = (id, text) => {
+        const logId = logIdGenerator(id);
+
+        document.getElementById(logId).innerText = text;
+      };
+
+      window.addEventListener("log", (event) => getLogs(event.detail));
+    </script>
+  </body>
+</html>

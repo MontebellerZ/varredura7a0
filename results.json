@@ -5276,9 +5276,10 @@
         "force": "68",
         "pos": [
           "LD",
+          "MC",
           "MD"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "3",
@@ -5334,9 +5335,10 @@
         "force": "82",
         "pos": [
           "LD",
+          "MC",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "15",
@@ -5354,9 +5356,10 @@
         "force": "71",
         "pos": [
           "LD",
+          "MC",
           "ZAG"
         ],
-        "missingPos": 2
+        "missingPos": 1
       },
       {
         "num": "20",
@@ -13317,8 +13320,8 @@
         "name": "Piazza",
         "force": "82",
         "pos": [
-          "ZAG",
-          "VOL"
+          "VOL",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -13355,9 +13358,10 @@
         "force": "90",
         "pos": [
           "ME",
-          "MEI"
+          "MEI",
+          "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "18",
@@ -13365,8 +13369,8 @@
         "force": "76",
         "pos": [
           "ME",
-          "PE",
-          "MEI"
+          "MEI",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -13395,8 +13399,8 @@
         "name": "Pelé",
         "force": "99",
         "pos": [
-          "MEI",
           "CA",
+          "MEI",
           "PD"
         ],
         "missingPos": 0
@@ -13406,8 +13410,8 @@
         "name": "Jairzinho",
         "force": "95",
         "pos": [
-          "PD",
-          "CA"
+          "CA",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -13416,8 +13420,8 @@
         "name": "Edu",
         "force": "75",
         "pos": [
-          "PE",
-          "CA"
+          "CA",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -13985,10 +13989,11 @@
         "name": "Semmeling",
         "force": "76",
         "pos": [
+          "MC",
           "MD",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "15",
@@ -14005,10 +14010,11 @@
         "name": "Verheyen",
         "force": "71",
         "pos": [
+          "MC",
           "MD",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "20",
@@ -14243,10 +14249,11 @@
         "name": "Rocha",
         "force": "85",
         "pos": [
+          "CA",
           "ME",
           "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "9",
@@ -17064,8 +17071,8 @@
         "name": "Galindo",
         "force": "72",
         "pos": [
-          "ZAG",
-          "LE"
+          "LE",
+          "ZAG"
         ],
         "missingPos": 0
       },
@@ -17084,8 +17091,8 @@
         "name": "Farías",
         "force": "73",
         "pos": [
-          "VOL",
-          "MC"
+          "MC",
+          "VOL"
         ],
         "missingPos": 1
       },
@@ -17105,9 +17112,10 @@
         "force": "75",
         "pos": [
           "MC",
-          "ME"
+          "ME",
+          "MEI"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "16",
@@ -17143,8 +17151,8 @@
         "name": "Socías",
         "force": "74",
         "pos": [
-          "MEI",
-          "ME"
+          "ME",
+          "MEI"
         ],
         "missingPos": 0
       },
@@ -17153,8 +17161,8 @@
         "name": "Castro",
         "force": "76",
         "pos": [
-          "PD",
-          "CA"
+          "CA",
+          "PD"
         ],
         "missingPos": 0
       },
@@ -17163,8 +17171,8 @@
         "name": "Caszely",
         "force": "88",
         "pos": [
-          "PE",
-          "CA"
+          "CA",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -17173,8 +17181,8 @@
         "name": "Ahumada",
         "force": "75",
         "pos": [
-          "PE",
-          "CA"
+          "CA",
+          "PE"
         ],
         "missingPos": 0
       },
@@ -17183,8 +17191,8 @@
         "name": "Véliz",
         "force": "78",
         "pos": [
-          "PE",
-          "CA"
+          "CA",
+          "PE"
         ],
         "missingPos": 0
       }
@@ -18637,9 +18645,10 @@
         "force": "71",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "10",
@@ -22203,6 +22212,220 @@
     ]
   },
   {
+    "team": "Camarões",
+    "year": "1982",
+    "players": [
+      {
+        "num": "1",
+        "name": "N'Kono",
+        "force": "80",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "12",
+        "name": "Bell",
+        "force": "76",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "22",
+        "name": "Tchobang",
+        "force": "68",
+        "pos": [
+          "GOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "2",
+        "name": "Kaham",
+        "force": "70",
+        "pos": [
+          "LD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "16",
+        "name": "Aoudou",
+        "force": "70",
+        "pos": [
+          "LD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "15",
+        "name": "N'Doumbé",
+        "force": "69",
+        "pos": [
+          "LE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "3",
+        "name": "Enoka",
+        "force": "69",
+        "pos": [
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "4",
+        "name": "N'Djeya",
+        "force": "72",
+        "pos": [
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "6",
+        "name": "Kundé",
+        "force": "76",
+        "pos": [
+          "ZAG"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "5",
+        "name": "Onana",
+        "force": "71",
+        "pos": [
+          "VOL",
+          "ZAG"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "11",
+        "name": "Toubé",
+        "force": "71",
+        "pos": [
+          "MC",
+          "MD",
+          "VOL"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "17",
+        "name": "Kamga",
+        "force": "70",
+        "pos": [
+          "MC",
+          "VOL"
+        ],
+        "missingPos": 1
+      },
+      {
+        "num": "7",
+        "name": "M'Bom",
+        "force": "70",
+        "pos": [
+          "MC"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "8",
+        "name": "M'Bida",
+        "force": "75",
+        "pos": [
+          "MC",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "14",
+        "name": "Abega",
+        "force": "77",
+        "pos": [
+          "MC",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "10",
+        "name": "Tokoto",
+        "force": "76",
+        "pos": [
+          "MEI",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "19",
+        "name": "Enanga",
+        "force": "69",
+        "pos": [
+          "ME",
+          "MEI"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "13",
+        "name": "Bahoken",
+        "force": "72",
+        "pos": [
+          "PD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "21",
+        "name": "Ebongué",
+        "force": "67",
+        "pos": [
+          "PD"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "20",
+        "name": "Eyobo",
+        "force": "68",
+        "pos": [
+          "CA",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "9",
+        "name": "Milla",
+        "force": "79",
+        "pos": [
+          "CA",
+          "PE"
+        ],
+        "missingPos": 0
+      },
+      {
+        "num": "18",
+        "name": "N'Guea",
+        "force": "71",
+        "pos": [
+          "CA"
+        ],
+        "missingPos": 0
+      }
+    ]
+  },
+  {
     "team": "Inglaterra",
     "year": "1986",
     "players": [
@@ -22602,9 +22825,10 @@
         "pos": [
           "CA",
           "MEI",
+          "PD",
           "PE"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "1",
@@ -40714,9 +40938,10 @@
         "force": "70",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "14",
