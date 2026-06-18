@@ -2,6 +2,7 @@ import fs from "fs";
 import { Browser, Page } from "puppeteer";
 import Constants from "./config/constants";
 import Logger from "./logger/logger";
+import { errorRegister } from "./config/utils";
 
 class WorkerManager {
   constructor(
@@ -53,17 +54,17 @@ class WorkerManager {
       const run = pendingRuns.shift();
       executedRuns++;
 
-      const logId = await this.logger.Info(`🟣 #${workerId}: Run ${run}`);
+      const logId = await this.logger.Info(`🟣 Run ${run} (#${workerId})`);
 
       try {
         const result = await executor(worker);
         results.push(result);
 
-        await this.logger.UpdateInfo(logId, `🟢 #${workerId}: Run ${run}`);
+        await this.logger.UpdateInfo(logId, `🟢 Run ${run} (#${workerId})`);
       } catch (err) {
-        await this.logger.UpdateError(logId, `🔴 #${workerId}: Run ${run}`);
+        await this.logger.UpdateError(logId, `🔴 Run ${run} (#${workerId})`);
 
-        fs.appendFileSync(Constants.errorFile, `${new Date().toLocaleString()}:\n${err}\n\n\n`);
+        errorRegister(err);
       }
 
       try {
@@ -71,7 +72,7 @@ class WorkerManager {
       } catch (err) {
         await this.logger.Warn(`🟡 #${workerId}: Ended with error (runs: ${executedRuns})`);
 
-        fs.appendFileSync(Constants.errorFile, `${new Date().toLocaleString()}:\n${err}\n\n\n`);
+        errorRegister(err);
 
         return;
       }

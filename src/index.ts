@@ -4,6 +4,7 @@ import WorkerManager from "./workerManager";
 import GameScraper from "./gameScraper";
 import TeamDataManager from "./teamDataManager";
 import Logger from "./logger/logger";
+import { errorRegister } from "./config/utils";
 
 async function main() {
   const logger = new Logger();
@@ -47,5 +48,10 @@ async function main() {
 }
 
 main()
-  .then(() => console.info("\n\nFinalizado com sucesso"))
-  .catch((err) => console.error(err, "\n\nFinalizado com erro"));
+  .then(() => {
+    console.info("\n\nFinalizado com sucesso");
+  })
+  .catch((err) => {
+    errorRegister(err);
+    console.error("\n\nFinalizado com erro");
+  });

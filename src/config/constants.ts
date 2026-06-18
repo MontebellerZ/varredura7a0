@@ -1,6 +1,6 @@
 class Constants {
   static readonly maxWorkers = 10;
-  static readonly maxRuns = 100;
+  static readonly maxRuns = 1000;
 
   static readonly siteUrl = "https://7a0.com.br/play";
   static readonly browserHeadless = true;

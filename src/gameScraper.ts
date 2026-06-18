@@ -1,5 +1,6 @@
 import { ElementHandle, Page } from "puppeteer";
 import { PlayerData, TeamData } from "./config/types";
+import { errorRegister } from "./config/utils";
 
 class GameScraper {
   private _page: Page;
@@ -131,6 +132,8 @@ class GameScraper {
         allTeams.push(await this.GetTeamData());
       }
     } catch (err) {
+      errorRegister(err);
+
       return { teams: allTeams, error: true };
     }
 
