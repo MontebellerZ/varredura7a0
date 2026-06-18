@@ -3163,6 +3163,7 @@
         "force": "73",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -3174,6 +3175,7 @@
         "force": "73",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -3185,6 +3187,7 @@
         "force": "72",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -3196,6 +3199,7 @@
         "force": "73",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -3360,6 +3364,7 @@
         "force": "90",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -3371,6 +3376,7 @@
         "force": "71",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -3382,6 +3388,7 @@
         "force": "70",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -6423,6 +6430,7 @@
         "name": "Zebec",
         "force": "85",
         "pos": [
+          "MD",
           "MEI",
           "VOL",
           "ZAG"
@@ -6435,6 +6443,7 @@
         "force": "76",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -6445,6 +6454,7 @@
         "force": "73",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -9850,6 +9860,7 @@
         "name": "Tichý",
         "force": "75",
         "pos": [
+          "MD",
           "VOL",
           "ZAG"
         ],
@@ -24292,6 +24303,7 @@
         "force": "86",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -24932,6 +24944,7 @@
         "force": "81",
         "pos": [
           "MC",
+          "MD",
           "PD",
           "VOL"
         ],
@@ -25392,6 +25405,7 @@
         "force": "94",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -25414,6 +25428,7 @@
         "force": "89",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -25651,6 +25666,7 @@
         "force": "88",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -25662,6 +25678,7 @@
         "force": "70",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -31546,6 +31563,7 @@
         "force": "85",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -31557,6 +31575,7 @@
         "force": "86",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],
@@ -34780,6 +34799,7 @@
         "force": "76",
         "pos": [
           "LD",
+          "MD",
           "ZAG"
         ],
         "missingPos": 1
@@ -34819,6 +34839,7 @@
         "name": "Ramelow",
         "force": "80",
         "pos": [
+          "MD",
           "VOL",
           "ZAG"
         ],
@@ -34830,6 +34851,7 @@
         "force": "83",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -34839,6 +34861,7 @@
         "name": "Kehl",
         "force": "77",
         "pos": [
+          "MD",
           "VOL",
           "ZAG"
         ],
@@ -37833,6 +37856,7 @@
         "force": "76",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -37853,6 +37877,7 @@
         "force": "76",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -44439,6 +44464,7 @@
         "force": "73",
         "pos": [
           "LD",
+          "MD",
           "ME"
         ],
         "missingPos": 1
@@ -44529,6 +44555,7 @@
         "force": "86",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -44539,6 +44566,7 @@
         "force": "88",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -44549,6 +44577,7 @@
         "force": "91",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -44582,6 +44611,7 @@
         "force": "92",
         "pos": [
           "CA",
+          "MD",
           "MEI",
           "PD"
         ],
@@ -45455,6 +45485,7 @@
         "force": "76",
         "pos": [
           "MC",
+          "MD",
           "VOL"
         ],
         "missingPos": 1
@@ -45465,6 +45496,7 @@
         "force": "82",
         "pos": [
           "MC",
+          "MD",
           "MEI",
           "VOL"
         ],

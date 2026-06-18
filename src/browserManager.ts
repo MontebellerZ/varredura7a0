@@ -25,7 +25,7 @@ class BrowserManager {
     this._browser = await puppeteer.launch({
       headless: headless,
       defaultViewport: null,
-      args: ["--window-size=900,900"],
+      args: ["--window-size=920,920"],
     });
     if (!this._browser) throw new Error("Navegador não inicializado corretamente");
   }

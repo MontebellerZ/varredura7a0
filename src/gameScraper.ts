@@ -130,6 +130,10 @@ class GameScraper {
     const allTeams: TeamData[] = [];
 
     try {
+      await this.RandomFormation();
+
+      await this.RandomStyle();
+
       await this.Roll();
       allTeams.push(await this.GetTeamData());
 
