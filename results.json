@@ -1590,9 +1590,10 @@
         "pos": [
           "MC",
           "MD",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "0",
@@ -3148,11 +3149,13 @@
         "name": "Bieganski",
         "force": "73",
         "pos": [
+          "MC",
           "MD",
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "13",
@@ -4000,10 +4003,12 @@
         "name": "Wright",
         "force": "88",
         "pos": [
+          "MC",
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "5",
@@ -6611,11 +6616,12 @@
         "name": "Bozsik",
         "force": "87",
         "pos": [
+          "CA",
           "MC",
           "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "9",
@@ -7280,9 +7286,10 @@
         "force": "76",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "22",
@@ -8148,10 +8155,12 @@
         "name": "Segarra",
         "force": "83",
         "pos": [
+          "MC",
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "21",
@@ -12492,10 +12501,12 @@
         "name": "Sieloff",
         "force": "73",
         "pos": [
+          "MC",
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "12",
@@ -12922,10 +12933,12 @@
         "name": "Albrecht",
         "force": "79",
         "pos": [
+          "MC",
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "17",
@@ -13372,9 +13385,10 @@
         "pos": [
           "ME",
           "MEI",
-          "PE"
+          "PE",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "5",
@@ -13818,9 +13832,11 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL",
+          "ZAG"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "10",
@@ -14232,9 +14248,10 @@
         "force": "74",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "10",
@@ -17570,9 +17587,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "16",
@@ -18445,9 +18463,10 @@
         "force": "76",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "12",
@@ -18498,9 +18517,10 @@
         "force": "77",
         "pos": [
           "CA",
+          "PD",
           "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "10",
@@ -19094,9 +19114,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "18",
@@ -20396,9 +20417,10 @@
         "force": "74",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "1",
@@ -21294,11 +21316,12 @@
         "name": "Engels",
         "force": "73",
         "pos": [
+          "LE",
           "MC",
           "ME",
           "MEI"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "10",
@@ -25586,9 +25609,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "22",
@@ -26301,9 +26325,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "7",
@@ -27209,11 +27234,13 @@
         "name": "Troglio",
         "force": "75",
         "pos": [
+          "CA",
           "MC",
           "MD",
+          "PE",
           "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "10",
@@ -29100,11 +29127,12 @@
         "name": "Zinho",
         "force": "78",
         "pos": [
+          "LE",
           "MC",
           "ME",
           "MEI"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "5",
@@ -29575,11 +29603,13 @@
         "name": "Adepoju",
         "force": "74",
         "pos": [
+          "CA",
           "MC",
           "MD",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "12",
@@ -30241,9 +30271,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "PD"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "10",
@@ -31979,9 +32010,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "7",
@@ -33756,10 +33788,12 @@
         "name": "Thon",
         "force": "77",
         "pos": [
+          "MC",
+          "MEI",
           "VOL",
           "ZAG"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "7",
@@ -34870,9 +34904,10 @@
         "pos": [
           "LE",
           "ME",
+          "MEI",
           "PE"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "7",
@@ -35130,11 +35165,12 @@
         "name": "Denílson",
         "force": "78",
         "pos": [
+          "CA",
           "ME",
           "PD",
           "PE"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "9",
@@ -36864,10 +36900,12 @@
         "name": "Yoo Sang-chul",
         "force": "78",
         "pos": [
+          "LE",
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "17",
@@ -38255,9 +38293,10 @@
         "force": "73",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "13",
@@ -39340,9 +39379,10 @@
         "pos": [
           "CA",
           "ME",
-          "PE"
+          "PE",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "6",
@@ -43173,9 +43213,11 @@
         "force": "75",
         "pos": [
           "MC",
+          "MEI",
+          "PE",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "18",
@@ -43410,9 +43452,10 @@
           "MC",
           "ME",
           "MEI",
+          "PE",
           "VOL"
         ],
-        "missingPos": -1
+        "missingPos": -2
       },
       {
         "num": "10",
@@ -44525,11 +44568,13 @@
         "name": "Özil",
         "force": "87",
         "pos": [
+          "MC",
           "ME",
           "MEI",
-          "PE"
+          "PE",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "13",
@@ -47642,9 +47687,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "6",
@@ -47652,9 +47698,10 @@
         "force": "90",
         "pos": [
           "MC",
+          "MEI",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "12",
@@ -47735,9 +47782,11 @@
         "pos": [
           "CA",
           "ME",
-          "MEI"
+          "MEI",
+          "PD",
+          "PE"
         ],
-        "missingPos": 0
+        "missingPos": -2
       },
       {
         "num": "9",
@@ -48557,9 +48606,10 @@
         "pos": [
           "ME",
           "MEI",
-          "PE"
+          "PE",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "6",
@@ -49049,9 +49099,10 @@
         "pos": [
           "MC",
           "ME",
-          "MEI"
+          "MEI",
+          "VOL"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "21",
@@ -50418,9 +50469,10 @@
         "force": "80",
         "pos": [
           "MEI",
-          "PD"
+          "PD",
+          "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "4",
@@ -51115,9 +51167,11 @@
         "force": "78",
         "pos": [
           "MC",
+          "MEI",
+          "PE",
           "VOL"
         ],
-        "missingPos": 1
+        "missingPos": -1
       },
       {
         "num": "19",
@@ -51668,9 +51722,10 @@
         "pos": [
           "CA",
           "MEI",
+          "PD",
           "PE"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "26",
@@ -52151,10 +52206,11 @@
         "name": "Coman",
         "force": "81",
         "pos": [
+          "CA",
           "PD",
           "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "9",
@@ -53211,9 +53267,10 @@
         "pos": [
           "CA",
           "MEI",
-          "PD"
+          "PD",
+          "PE"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "9",
@@ -55049,9 +55106,10 @@
         "pos": [
           "CA",
           "MEI",
+          "PD",
           "PE"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "21",
@@ -55786,10 +55844,11 @@
         "name": "Leweling",
         "force": "76",
         "pos": [
+          "MEI",
           "PD",
           "PE"
         ],
-        "missingPos": 1
+        "missingPos": 0
       },
       {
         "num": "19",
@@ -55806,11 +55865,12 @@
         "name": "Karl",
         "force": "76",
         "pos": [
+          "CA",
           "ME",
           "MEI",
           "PD"
         ],
-        "missingPos": 0
+        "missingPos": -1
       },
       {
         "num": "7",

@@ -35,13 +35,9 @@ class TeamDataManager {
           continue;
         }
 
-        const oldTotalPos = existingPlayer.pos.length + existingPlayer.missingPos;
-        const newTotalPos = player.pos.length + player.missingPos;
-
         const mergedPos = [...new Set([...existingPlayer.pos, ...player.pos])].sort();
 
         existingPlayer.pos = mergedPos;
-        existingPlayer.missingPos = Math.max(oldTotalPos, newTotalPos) - mergedPos.length;
       }
     }
 

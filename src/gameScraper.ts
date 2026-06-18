@@ -1,6 +1,6 @@
 import { ElementHandle, Page } from "puppeteer";
 import { PlayerData, TeamData } from "./config/types";
-import { errorRegister } from "./config/utils";
+import { errorRegister, pickRandom } from "./config/utils";
 
 class GameScraper {
   private _page: Page;
@@ -33,14 +33,30 @@ class GameScraper {
       const num = await row.$eval(".pool-num", (p) => p.textContent.replace(/\D/g, ""));
       const name = await row.$eval(".pool-name", (p) => p.textContent.trim());
       const force = await row.$eval(".pool-force", (p) => p.textContent.trim());
-      const { pos, missingPos } = await this.FindPlayerPos(row);
+      const pos = await this.FindPlayerPos(row);
 
-      players.push({ num, name, force, pos, missingPos });
+      players.push({ num, name, force, pos });
     }
 
     if (!players.length) throw new Error("Jogadores não identificados corretamente");
 
     return { team, year, players };
+  }
+
+  async RandomFormation() {
+    const formations = await this.page.$$(".setup-group:nth-child(1) button.chip");
+
+    const randomFormation = pickRandom(formations);
+
+    await randomFormation.click();
+  }
+
+  async RandomStyle() {
+    const formations = await this.page.$$(".setup-group:nth-child(2) button.chip");
+
+    const randomFormation = pickRandom(formations);
+
+    await randomFormation.click();
   }
 
   async ChangeTeam() {
@@ -59,7 +75,7 @@ class GameScraper {
     const availablePlayers = await this.page.$$("button.pool-row:not(.not-selectable)");
     if (!availablePlayers.length) throw new Error("Nenhum player disponível encontrado");
 
-    const player = availablePlayers[Math.floor(Math.random() * availablePlayers.length)];
+    const player = pickRandom(availablePlayers);
 
     for (let attempt = 0; attempt < 2; attempt++) {
       await player.click();
@@ -103,12 +119,11 @@ class GameScraper {
       const posDiff = slotsPos.filter((sp) => !pos.includes(sp));
 
       if (posDiff.length > 0) {
-        missingPos -= posDiff.length;
         pos.push(...posDiff);
       }
     }
 
-    return { pos, missingPos };
+    return pos;
   }
 
   async FullScrap() {

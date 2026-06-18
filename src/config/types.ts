@@ -15,5 +15,4 @@ export type PlayerData = {
   name: string;
   force: string;
   pos: string[];
-  missingPos: number;
 };

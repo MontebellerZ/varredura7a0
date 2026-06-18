@@ -8,3 +8,7 @@ export async function wait(ms: number) {
 export function errorRegister(err: any) {
   fs.appendFileSync(Constants.errorFile, `${new Date().toLocaleString()}:\n${err}\n\n\n`);
 }
+
+export function pickRandom<T>(arr: T[]) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
