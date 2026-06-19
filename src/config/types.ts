@@ -16,3 +16,8 @@ export type PlayerData = {
   force: string;
   pos: string[];
 };
+
+export type ResultGameScraper = {
+  teams: TeamData[];
+  error: boolean;
+};

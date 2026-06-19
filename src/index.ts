@@ -5,6 +5,7 @@ import GameScraper from "./gameScraper";
 import TeamDataManager from "./teamDataManager";
 import Logger from "./logger/logger";
 import { errorRegister } from "./config/utils";
+import { ResultGameScraper } from "./config/types";
 
 async function main() {
   const logger = new Logger();
@@ -22,10 +23,13 @@ async function main() {
 
   await logger.Info(`🔵 All ${workers.length} workers ready`);
 
-  const workersResult = await workerManager.ExecuteWorkers(
+  const workersResult: ResultGameScraper[] = [];
+
+  await workerManager.ExecuteWorkers(
     workers,
     Constants.maxRuns,
     GameScraper.RunGameScraper,
+    workersResult,
   );
 
   await logger.Info("🔵 Runs ended");

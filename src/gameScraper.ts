@@ -1,5 +1,5 @@
 import { ElementHandle, Page } from "puppeteer";
-import { PlayerData, TeamData } from "./config/types";
+import { PlayerData, ResultGameScraper, TeamData } from "./config/types";
 import { errorRegister, pickRandom } from "./config/utils";
 
 class GameScraper {
@@ -159,7 +159,7 @@ class GameScraper {
     return { teams: allTeams, error: false };
   }
 
-  static async RunGameScraper(page: Page) {
+  static async RunGameScraper(page: Page): Promise<ResultGameScraper> {
     const game = new GameScraper(page);
 
     const result = await game.FullScrap();

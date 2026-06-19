@@ -108,20 +108,21 @@ class WorkerManager {
     workers: Page[],
     executions: number,
     executor: (w: Page) => Promise<T> | T,
+    results: T[] = [],
   ) {
-    const pendingRuns = Array.from({ length: executions }, (_, i) => i + 1);
+    try {
+      const pendingRuns = Array.from({ length: executions }, (_, i) => i + 1);
 
-    const workersResult: T[] = [];
+      const clearStopper = await this.SetupWorkerStopper();
 
-    const clearStopper = await this.SetupWorkerStopper();
+      await Promise.all(
+        workers.map((w, id) => this.RunWorker(w, id + 1, executor, pendingRuns, results)),
+      );
 
-    await Promise.all(
-      workers.map((w, id) => this.RunWorker(w, id + 1, executor, pendingRuns, workersResult)),
-    );
-
-    clearStopper();
-
-    return workersResult;
+      clearStopper();
+    } finally {
+      return results;
+    }
   }
 }
 
