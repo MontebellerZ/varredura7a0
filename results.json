@@ -29930,6 +29930,15 @@
           "CA",
           "PD"
         ]
+      },
+      {
+        "num": "21",
+        "name": "Edmilton",
+        "force": "79",
+        "pos": [
+          "CA",
+          "PD"
+        ]
       }
     ]
   },
@@ -31947,6 +31956,14 @@
         "force": "75",
         "pos": [
           "CA"
+        ]
+      },
+      {
+        "num": "1",
+        "name": "Marcão",
+        "force": "88",
+        "pos": [
+          "GOL"
         ]
       }
     ]
@@ -36047,6 +36064,14 @@
         "pos": [
           "CA"
         ]
+      },
+      {
+        "num": "21",
+        "name": "Fredson",
+        "force": "78",
+        "pos": [
+          "CA"
+        ]
       }
     ]
   },
@@ -38259,6 +38284,15 @@
         "pos": [
           "CA"
         ]
+      },
+      {
+        "num": "17",
+        "name": "Jonás Bravo",
+        "force": "77",
+        "pos": [
+          "LD",
+          "MD"
+        ]
       }
     ]
   },
@@ -39896,6 +39930,14 @@
         "num": "21",
         "name": "Jô",
         "force": "74",
+        "pos": [
+          "CA"
+        ]
+      },
+      {
+        "num": "9",
+        "name": "Fredson",
+        "force": "77",
         "pos": [
           "CA"
         ]
@@ -48114,6 +48156,17 @@
         "force": "77",
         "pos": [
           "CA"
+        ]
+      },
+      {
+        "num": "22",
+        "name": "Evertom R.",
+        "force": "74",
+        "pos": [
+          "MC",
+          "MD",
+          "MEI",
+          "VOL"
         ]
       }
     ]

@@ -7,6 +7,8 @@ class Constants {
 
   static readonly teamsFile = "./results.json";
   static readonly errorFile = "./errors.txt";
+
+  static readonly autoCloseLogger = false;
 }
 
 export default Constants;

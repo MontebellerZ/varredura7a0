@@ -48,7 +48,7 @@ async function main() {
 
   await logger.Info("🟢 Ended");
 
-  await logger.Close();
+  if (Constants.autoCloseLogger) await logger.Close();
 }
 
 main()
